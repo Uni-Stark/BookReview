@@ -21,4 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "BookReview"
 include(":app")
- 
+include(":feature")
+include(":feature:home")
+include(":feature:edit")
+include(":feature:common")

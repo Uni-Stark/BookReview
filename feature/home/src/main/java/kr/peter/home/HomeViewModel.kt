@@ -1,4 +1,4 @@
-package kr.peter.bookreview.feature.home
+package kr.peter.home
 
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel

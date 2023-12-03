@@ -1,4 +1,4 @@
-package kr.peter.bookreview.feature.home
+package kr.peter.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -12,9 +12,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.viewmodel.compose.viewModel
-import kr.peter.bookreview.feature.edit.editScreenRoute
+import kr.peter.common.G
 
-const val homeScreenRoute: String = "Home"
 
 @Composable
 fun HomeScreenRoute(
@@ -47,7 +46,7 @@ fun HomeScreen(
             Button(
                 modifier = Modifier,
                 onClick = {
-                    onDestinationChanged(editScreenRoute)
+                    onDestinationChanged(G.UiRoute.editScreenRoute)
                 }
             ) {
                 Text(
